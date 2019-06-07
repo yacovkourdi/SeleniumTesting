@@ -1,0 +1,216 @@
+{
+  "id": "6a576539-349f-4570-8cc7-cfbceab630c6",
+  "version": "2.0",
+  "name": "YacovAnnaTest1",
+  "url": "http://localhost:8080",
+  "tests": [{
+    "id": "3bcc7501-2d82-49fe-973c-0ad9c2c98dfb",
+    "name": "test1",
+    "commands": [{
+      "id": "606f12bb-f1d0-4a6b-8c49-13a80ba1268e",
+      "comment": "",
+      "command": "open",
+      "target": "/YacovAnnaProject/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fd4844da-023b-4e71-8622-d5e52d631abf",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9bfec157-4b0a-43fb-b61d-d5308720cbe3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-bars",
+      "targets": [
+        ["css=.fa-bars", "css:finder"],
+        ["xpath=//span/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9aa9a3f-0579-44c9-86ea-d3df6f000b7e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-remove",
+      "targets": [
+        ["css=.fa-remove", "css:finder"],
+        ["xpath=//nav[@id='mySidebar']/a/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "889a32c0-54c5-4388-82da-c3f9bb45f249",
+      "comment": "",
+      "command": "click",
+      "target": "id=myButton",
+      "targets": [
+        ["id=myButton", "id"],
+        ["css=#myButton", "css:finder"],
+        ["xpath=//button[@id='myButton']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Click Here')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "abc0be36-0da0-475c-98fd-ad0b09e6a157",
+      "comment": "",
+      "command": "click",
+      "target": "id=chat",
+      "targets": [
+        ["id=chat", "id"],
+        ["css=#chat", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "35b319b6-6702-43d5-8337-8dac10e13611",
+      "comment": "",
+      "command": "type",
+      "target": "id=chat",
+      "targets": [
+        ["id=chat", "id"],
+        ["css=#chat", "css:finder"]
+      ],
+      "value": "Hello this is a test"
+    }, {
+      "id": "45e123bd-b533-48d9-87b2-a407049e1dcd",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=chat",
+      "targets": [
+        ["id=chat", "id"],
+        ["css=#chat", "css:finder"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "1f9a44dc-dfb1-4b01-acd2-c59afd8bdab8",
+      "comment": "",
+      "command": "click",
+      "target": "id=chat",
+      "targets": [
+        ["id=chat", "id"],
+        ["css=#chat", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2c612de-84eb-416a-b687-bdc8010fd64d",
+      "comment": "",
+      "command": "type",
+      "target": "id=chat",
+      "targets": [
+        ["id=chat", "id"],
+        ["css=#chat", "css:finder"]
+      ],
+      "value": "Welcome to our project"
+    }, {
+      "id": "ccae8c19-5d5c-4176-8305-6e0f1bc92df6",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=chat",
+      "targets": [
+        ["id=chat", "id"],
+        ["css=#chat", "css:finder"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }, {
+    "id": "7a5ffb6a-85f4-4e1a-b9d0-67beffc3e24c",
+    "name": "test2",
+    "commands": [{
+      "id": "f8f364ef-524f-4416-9ba2-90d9061cdeec",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "94f79476-ef41-48dd-9d66-34b96260d73e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e1134b62-6c99-49f7-b2c1-4088f671652c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button:nth-child(2) span",
+      "targets": [
+        ["css=.button:nth-child(2) span", "css:finder"],
+        ["xpath=//div[@id='actions']/div[2]/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Manager App')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c5acac8-5d89-4844-82cd-945e2fd2f9d4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=/YacovAnnaProject",
+      "targets": [
+        ["linkText=/YacovAnnaProject", "linkText"],
+        ["css=tr:nth-child(9) > .row-left a", "css:finder"],
+        ["xpath=//a[contains(text(),'/YacovAnnaProject')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/YacovAnnaProject/')]", "xpath:href"],
+        ["xpath=//tr[9]/td/small/a", "xpath:position"],
+        ["xpath=//a[contains(.,'/YacovAnnaProject')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f80c5ba1-b14b-4464-981b-cc6494f02419",
+      "comment": "",
+      "command": "click",
+      "target": "id=myButton",
+      "targets": [
+        ["id=myButton", "id"],
+        ["css=#myButton", "css:finder"],
+        ["xpath=//button[@id='myButton']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Click Here')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1bf02bc3-417a-4f98-8e9c-51746f72662a",
+      "comment": "",
+      "command": "click",
+      "target": "id=chat",
+      "targets": [
+        ["id=chat", "id"],
+        ["css=#chat", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "a62d0646-3354-4de7-a126-50fbec016cc7",
+      "comment": "",
+      "command": "type",
+      "target": "id=chat",
+      "targets": [
+        ["id=chat", "id"],
+        ["css=#chat", "css:finder"]
+      ],
+      "value": "Hi again, this is  the second test"
+    }, {
+      "id": "dec86ee9-bdeb-4321-8155-6646c1f1a659",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=chat",
+      "targets": [
+        ["id=chat", "id"],
+        ["css=#chat", "css:finder"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }],
+  "suites": [{
+    "id": "2c07393d-16a5-459b-89c9-e2743c624710",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["3bcc7501-2d82-49fe-973c-0ad9c2c98dfb"]
+  }],
+  "urls": ["http://localhost:8080/"],
+  "plugins": []
+}
